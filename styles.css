@@ -1,1 +1,97 @@
 /* Styles for the Advanced Markup assignment. */
+
+/*all pages*/
+ 
+nav ul li {
+  display: inline;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: rgb(105,161,168);
+}
+
+
+#sidebar {
+  width: 300px;
+  float: right;
+  background: rgb(105,161,168); 
+  margin: 20px;
+  padding: 10px;
+  border: dashed;
+}
+
+#sidebar ul li {
+  display: inline;
+}
+
+#sidebar ul {
+  list-style-type: none;
+}
+
+.bibliography ul {
+  display: inline;
+  color: black;
+}
+   
+/*about-poe*/
+table {
+    width: 75%;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th {
+    height: 30px;
+    text-align: left;
+    vertical-align: center;
+    padding: 5px;
+  
+}
+table, th, td {
+    border: 1px solid black;
+}  
+tr:nth-child(even) {
+  background-color: rgb(105,161,168);
+}  
+
+p.bio-photo {
+  float: left;
+  margin: 5px 20px 20px 0px;
+  width: 250px;
+  text-align: center;
+  font-size: small;
+  font-style: oblique;
+  line-height: 15px;
+}
+
+dt {
+  font-weight:bold;
+}
+/*index*/
+
+.poem {
+  list-style-type: none; 
+}
+.poem li {  
+  line-height: 2.0;  
+} 
+
